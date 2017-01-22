@@ -1,0 +1,71 @@
+html { font-size: 16px}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  width: 95%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 300%;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-size: 200%;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  font-size: 130%;
+  letter-spacing: 0.1rem;
+}
+
+hr {
+  border: 0.1rem solid skyblue;
+  width: 70%;
+  margin-left: 0.1rem;
+}
+
+section {
+  width: 70%;
+}
+
+p {
+  font-size: 120%;
+  line-height: 1.5rem;
+}
+
+fieldset {
+  width: 60%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid skyblue;
+}
+
+input[type=text], input[type=email], input[type=url] {
+  padding: 0.3rem;
+  border: 0.1rem solid skyblue;
+  border-radius: 0.5rem;
+}
+
+textarea {
+  border: 0.1rem solid skyblue;
+  border-radius: 0.5rem;
+  font-family: 'Dosis', sans-serif;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  border-radius: 0.3rem;
+  background-color: skyblue;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  font-family: 'Dosis', sans-serif;
+}
+
+legend {
+  font-size: 120%;
+}
